@@ -175,18 +175,7 @@
 
   
   @media (max-width: 712px) {
-    /* #leftblob {
-      display: none;
-    }
-    #welcome-section h1 {
-      font-size: 3rem;
-    }
-    #profilepicmobile {
-      margin-top: 0px;
-      width: 110vw;
-      left: -70px;
-    } */
-    /* HAMBURGER */
+   
     .hamburger {
       display: block;
       margin-right: 2px;
