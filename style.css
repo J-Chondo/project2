@@ -15,6 +15,9 @@
   body {
     background-color: var(--light);
   }
+  /* section {
+    padding: 2rem 9%;
+  } */
 
    p {
     margin-bottom: 15px;
@@ -238,6 +241,83 @@
     }
   }
 
+  /* service page */
+
+  .service-bg{
+    height: 40vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url();
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading {
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 4rem;
+  }
+  
+  .heading span {
+    color: var(--theme-color);
+    text-transform: uppercase;
+  }
+  .service-bg .text{
+    margin: 1.6rem 0;
+}
+
+  .service .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1.5rem;
+    margin-top: 50px;
+    padding: 1px 4%;
+  }
+  
+  .service .box-container .box {
+    border-radius: 0.5rem;
+    background: #333;
+    text-align: center;
+    padding: 2.5rem;
+  }
+  
+  .service .box-container .box i {
+    height: 6rem;
+    width: 6rem;
+    line-height: 6rem;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    background: var(--theme-color);
+    color: #fff;
+  }
+  
+  .service .box-container .box h3 {
+    font-size: 2rem;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  .service .box-container .box li {
+    font-size: 1.4rem;
+    color: #eee;
+    line-height: 1.8;
+    list-style: none;
+  }
+
+  .container h4{
+    text-align: center;
+    padding-top: 40px;
+    font-size:2rem ;
+    color: black;
+  }
+  
+
 
   /* contact page */
 
@@ -287,6 +367,7 @@
 .text{
     font-weight: 300;
     opacity: 0.9;
+    font-size: 1.2rem;
 }
 .contact-bg .text{
     margin: 1.6rem 0;
@@ -401,7 +482,13 @@
 }
 
 @media screen and (min-width: 768px){
-    .contact-bg .text{
+  .service-bg .text{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+} 
+  
+  .contact-bg .text{
         width: 70%;
         margin-left: auto;
         margin-right: auto;
@@ -413,6 +500,10 @@
 }
 
 @media screen and (min-width: 992px){
+
+    .service-bg .text{
+      width: 50%;
+    }
     .contact-bg .text{
         width: 50%;
     }
