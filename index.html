@@ -5,62 +5,171 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>OMNILERT</title>
 
+  <!-- External CSS libraries -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <link rel="stylesheet" href="style.css" />
-
-  <!-- Fontawesome icon -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="transition transition-3 is-active"></div>
-  <div class="page">
-    <header>
-      <nav>
-        <img src="images/logo.jpg" alt="Brand-logo" class="logo" />
-        <ul id="nav-list" class="menu">
-          <li class="menu-item is-active"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="menu-item"><a class="nav-link" href="service.html">Services</a></li>
-          <li class="menu-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
-        </ul>
-        <div class="hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-      </nav>
-    </header>
 
+  <header>
+    <nav>
+      <img src="images/logo.jpg" alt="Brand-logo" class="logo" />
+      <ul id="nav-list" class="menu">
+        <li class="menu-item is-active"><a class="nav-link" href="#home-section">Home</a></li>
+        <li class="menu-item"><a class="nav-link" href="#service-section">Services</a></li>
+        <li class="menu-item"><a class="nav-link" href="#">About Us</a></li>
+        <li class="menu-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+        <li class="menu-item"><a class="nav-link" href="#contact-section">Contact Us</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
 
-    <main>
-      <section class="banner">
-        <div class="banner-inner">
-          <h2>OMNILERT PR AND EVENTS</h2>
-          <h1>Event Planning & Management</h1>
-          <h4>"we got your entire event covered"</h4>
+  <main>
+    <section id="home-section" class="hidden banner">
+      <div class="banner-inner">
+        <h2>OMNILERT PR AND EVENTS</h2>
+        <h1>Event Planning & Management</h1>
+        <h4>"we got your entire event covered"</h4>
+      </div>
+    </section>
+
+    <section id="service-section" class="service">
+      <h2>Our Services</h2>
+      <div class="container">
+        <div class="logo box-container">
+          <!-- Service Box 1 -->
+          <div class="hidden box">
+            <i class="fas fa-group"></i>
+            <h3>Social Events</h3>
+            <ul>
+              <li>Wedding</li>
+              <li>Birthday</li>
+              <li>Anniversaries</li>
+              <li>Graduation Parties</li>
+              <li>Religion Gathering</li>
+            </ul>
+          </div>
+          <!-- Service Box 2 -->
+          <div class="hidden box">
+            <i class="fas fa-graduation-cap"></i>
+            <h3>Professional Events</h3>
+            <ul>
+              <li>Conferences</li>
+              <li>Seminars</li>
+              <li>Workshop</li>
+              <li>Trade Show</li>
+              <li>Corporate</li>
+            </ul>
+          </div>
+          <!-- Service Box 3 -->
+          <div class="hidden box">
+            <i class="fas fa-music"></i>
+            <h3>Entertainment Events</h3>
+            <ul>
+              <li>Music Festivals</li>
+              <li>Film Festivals</li>
+              <li>Art Exhibitions</li>
+              <li>Theatre Performance</li>
+              <li>Sport Events</li>
+            </ul>
+          </div>
+          <!-- Service Box 4 -->
+          <div class="hidden box">
+            <i class="fas fa-video"></i>
+            <h3>For all Events</h3>
+            <ul>
+              <li>Cake & Outside catering</li>
+              <li>Dressing & make-up</li>
+              <li>Decoration & car hire</li>
+              <li>Tent, chairs hire & venue selection</li>
+              <li>MC, musician, comedy, Dancers..</li>
+            </ul>
+          </div>
         </div>
-      </section>
-      
-      
-      <section>
-        <div class = "contact-footer">
-          <h3>Follow Us</h3>
-          <div class = "social-links">
-            <a href = "#" class = "fab fa-facebook-f"></a>
-            <a href = "#" class = "fab fa-twitter"></a>
-            <a href = "#" class = "fab fa-instagram"></a>
-            <a href = "#" class = "fab fa-tiktok"></a>
-            <a href = "#" class = "fab fa-youtube"></a>
+      </div>
+    </section>
+
+    <section class=" gallery" id="gallery">
+      <h4>Gallery</h4>
+      <swiper-container class="mySwiper" pagination="true" effect="coverflow" grab-cursor="true" centered-slides="true"
+        slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100"
+        coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true">
+        <swiper-slide><img src="images/home1 (10).jpg" alt=""></swiper-slide>
+        <swiper-slide><img src="images/home1 (12).jpg" alt=""></swiper-slide>
+        <swiper-slide><img src="images/home1 (13).jpg" alt=""></swiper-slide>
+        <swiper-slide><img src="images/home1 (14).jpg" alt=""></swiper-slide>
+        <swiper-slide><img src="images/home1 (15).jpg" alt=""></swiper-slide>
+        <swiper-slide><img src="images/home1 (16).jpg" alt=""></swiper-slide>
+        <swiper-slide><img src="images/home1 (17).jpg" alt=""></swiper-slide>
+        <swiper-slide><img src="images/home1 (18).jpg" alt=""></swiper-slide>
+        <swiper-slide><img src="images/home1 (19).jpg" alt=""></swiper-slide>
+        <swiper-slide><img src="images/home1 (20).jpg" alt=""></swiper-slide>
+        <swiper-slide><img src="images/home1 (21).jpg" alt=""></swiper-slide>
+        <swiper-slide><img src="images/home1 (4).jpg" alt=""></swiper-slide>
+        <swiper-slide><img src="images/home1 (5).jpg" alt=""></swiper-slide>
+        <swiper-slide><img src="images/home1 (6).jpg" alt=""></swiper-slide>
+        <swiper-slide><img src="images/home1 (7).jpg" alt=""></swiper-slide>
+        <swiper-slide><img src="images/home1 (8).jpg" alt=""></swiper-slide>
+        <swiper-slide><img src="images/home1 (9).jpg" alt=""></swiper-slide>
+        <swiper-slide><img src="images/home 1.jpg" alt=""></swiper-slide>
+        
+      </swiper-container>
+    </section>
+
+    <section class="hidden contact-section" id="contact-section">
+      <div class="contact-body">
+        <h2>Contact Us</h2>
+        <div class="contact-form" id="contact-form">
+          <form>
+            <div>
+              <input type="text" class="form-control" placeholder="First Name">
+              <input type="text" class="form-control" placeholder="Last Name">
+            </div>
+            <div>
+              <input type="email" class="form-control" placeholder="E-mail">
+              <input type="text" class="form-control" placeholder="Phone">
+            </div>
+            <textarea rows="5" placeholder="Message" class="form-control"></textarea>
+            <input type="submit" class="send-btn" value="Send Message">
+          </form>
+          <div>
+            <img src="images/contact-png.png" alt="">
           </div>
         </div>
 
-        </section>  
-        <footer>
-          <p>Copyright © 2024 OMNILERT || Designed by Joel Chondo.</p>
-        </footer> 
-    </main>
-    
-    <script src="index.js"></script>
-        
-  </body>
+        <div class="contact-info">
+          <!-- Contact Information -->
+        </div>
+      </div>
+
+      <div class="contact-footer">
+        <h3>Follow Us</h3>
+        <div class="social-links">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-tiktok"></a>
+          <a href="#" class="fab fa-youtube"></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright © 2024 OMNILERT || Designed by Joel Chondo.</p>
+  </footer>
+
+  <!-- JavaScript libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  <script src="index.js"></script>
+
+</body>
 </html>
