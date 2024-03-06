@@ -8,6 +8,7 @@
   <!-- External CSS libraries -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
   
   <!-- Custom styles -->
   <link rel="stylesheet" href="style.css" />
@@ -99,6 +100,8 @@
     
     </section>
 
+    
+
     <section class=" gallery" id="gallery">
       <h4>Gallery</h4>
       <swiper-container class="mySwiper" pagination="true" effect="coverflow" grab-cursor="true" centered-slides="true"
@@ -126,7 +129,96 @@
       </swiper-container>
     </section>
 
-    <section class="hidden contact-section" id="contact-section">
+    <section class="review" id="review">
+
+      <h4>What Our Customers Say About Us</h4>
+      
+  
+      <div class="swiper review-slider">
+  
+          <div class="swiper-wrapper">
+  
+              <div class="swiper-slide slide">
+                  <i class="fas fa-quote-right"></i>
+                  <div class="user">
+                      
+                      <div class="user-info">
+                          <h3>Joel dio</h3>
+                          <div class="stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star-half-alt"></i>
+                          </div>
+                      </div>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+              </div>
+  
+              <div class="swiper-slide slide">
+                  <i class="fas fa-quote-right"></i>
+                  <div class="user">
+                      
+                      <div class="user-info">
+                          <h3>Joel dio</h3>
+                          <div class="stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star-half-alt"></i>
+                          </div>
+                      </div>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+              </div>
+  
+              <div class="swiper-slide slide">
+                  <i class="fas fa-quote-right"></i>
+                  <div class="user">
+                      
+                      <div class="user-info">
+                          <h3>Joel dio</h3>
+                          <div class="stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star-half-alt"></i>
+                          </div>
+                      </div>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+              </div>
+  
+              <div class="swiper-slide slide">
+                  <i class="fas fa-quote-right"></i>
+                  <div class="user">
+                      
+                      <div class="user-info">
+                          <h3>Joel dio</h3>
+                          <div class="stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star-half-alt"></i>
+                          </div>
+                      </div>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+              </div>
+  
+          </div>
+
+          <div class="swiper-pagination"></div>
+  
+      </div>
+      
+  </section>
+
+    <section class=" contact-section" id="contact-section">
       <div class="contact-body">
         <h2>Contact Us</h2>
         <div class="contact-form" id="contact-form">
@@ -142,13 +234,19 @@
             <textarea rows="5" placeholder="Message" class="form-control"></textarea>
             <input type="submit" class="send-btn" value="Send Message">
           </form>
-          <div>
-            <img src="images/contact-png.png" alt="">
+          <div class="contact-info">
+            <div >
+              <span><i class = "fas fa-map-marker-alt"></i></span>
+              <span>Address</span>
+              <span class = "text">2939 Patrick Street, Vicotria TX, United States</span>
+            </div>
+            <div>
+              <span><i class = "fas fa-clock"></i></span>
+              <span>Opening Hours</span>
+              <span class = "text">Monday - Friday (9:00 AM to 5:00 PM)</span>
+            </div>
           </div>
-        </div>
-
-        <div class="contact-info">
-          <!-- Contact Information -->
+          </div>
         </div>
       </div>
 
@@ -171,6 +269,9 @@
 
   <!-- JavaScript libraries -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
   <script src="index.js"></script>
 
 </body>

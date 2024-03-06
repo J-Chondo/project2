@@ -209,6 +209,62 @@
     font-size:2rem ;
     color: black;
   }
+
+  /* review section */
+  .review h4{
+    text-align: center;
+    padding: 40px;
+    font-size:2rem ;
+    color: black;
+  }
+
+  .review .slide{
+    padding:2rem;
+    box-shadow:var(--box-shadow);
+    border:.1rem solid rgba(0,0,0,.2);
+    border-radius: .5rem;
+    position: relative;    
+    margin-bottom: 4rem;
+}
+
+.review .slide .fa-quote-right{
+    position: absolute;
+    top:2rem; right:2rem;
+    font-size: 6rem;
+    color:#ccc;
+}
+
+.review .slide .user{
+    display: flex;
+    gap:1.5rem;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+
+.review .slide .user img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review .slide .user h3{
+    color:var(--black);
+    font-size: 2rem;
+    padding-bottom: .5rem;
+}
+
+.review .slide .user i{
+    font-size: 1.3rem;
+    color:var(--green);
+}
+
+.review .slide p{
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color:var(--light-color);
+}
+
   
 
 
@@ -228,6 +284,7 @@
 }
 .contact-info{
     margin: 2rem 0;
+  
     text-align: center;
     padding: 2rem 0;
 }
@@ -235,8 +292,9 @@
     display: block;
 }
 .contact-info div{
-    margin: 0.8rem 0;
+    margin: 0,8rem 0;
     padding: 1rem;
+    
 }
 .contact-info span .fas{
     font-size: 2rem;
@@ -252,7 +310,7 @@
 }
 .contact-form{
     padding: 2rem 0;
-    /* border-top: 1px solid #c7c7c7; */
+    align-items: center;
 }
 .contact-form form{
     padding-bottom: 1rem;
@@ -289,9 +347,6 @@
 }
 .send-btn:hover{
     opacity: 0.8;
-}
-.contact-form > div img{
-    width: 85%;
 }
 .contact-form > div{
     margin: 0 auto;
