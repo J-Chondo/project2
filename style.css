@@ -21,7 +21,7 @@
 
   .sub-heading {
     text-align: center;
-    padding-top: 40px;
+    padding: 40px;
     color: var(--dark);
     font-size: 40px;
   
@@ -167,6 +167,7 @@
   .about .row .image {
     flex: 1 1 45rem;
     padding: 5rem;
+  
   }
   
   .about .row .image img {
@@ -202,7 +203,6 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     gap: 1.5rem;
-    margin-top: 50px;
     padding: 1px 4%;
   }
   
@@ -565,10 +565,6 @@
     padding: 1.5rem 2rem;
   }
 
-  .sub-heading{
-    font-size: 25px;
-  }
-
   section {
     padding: 2rem;
   }
@@ -577,10 +573,6 @@
 @media (max-width: 450px) {
   html {
     font-size: 50%;
-  }
-
-  .home .home-slider .swiper-slide {
-    width: 27rem;
   }
 }
 
@@ -628,38 +620,6 @@
 footer p{
   text-align: center;
   margin-top: 5px;
-}
-
-
-.hidden{
-  opacity: 0;
-  filter: blur(5px);
-  transform: translateX(-100%);
-  transition: all 2s;
-}
-
-@media(prefers-reduce-motion){
-  .hidden{
-      transition: none;
-  }
-}
-.show{
-  opacity: 1;
-  filter: blur(0);
-  transform: translateX(0);
-}
-.logo{
-  display: flex;
-  gap: 10px;
-}
-.logo:nth-child(2) {
- transition-delay: 200ms; 
-}
-.logo:nth-child(3) {
-  transition-delay: 400ms; 
-}
-.logo:nth-child(4) {
-  transition-delay: 600ms; 
 }
 
 #preloader{
